@@ -2,7 +2,7 @@ let ws;
 let audioContext, processor, source;
 
 document.getElementById("start").onclick = async () => {
-  ws = new WebSocket("wss://gemini-oy82.onrender.com/ws"); // Replace this
+  ws = new WebSocket("wss://gemini-c8j1.onrender.com/ws"); // Replace this
   ws.binaryType = "arraybuffer";
 
   const status = document.getElementById("status");
